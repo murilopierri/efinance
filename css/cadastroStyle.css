@@ -1,0 +1,61 @@
+/* Cores e aparência base */
+body {
+  background-color: black;
+}
+
+.navbar-custom {
+  background-color: #5FD863;
+}
+
+.navbar-brand-custom {
+  font-family: 'Gajraj One', cursive;
+}
+
+.input-custom {
+  background-color: #d1d1d1;
+  border-radius: 100px;
+  padding-left: 1rem;
+}
+
+/* Títulos */
+.titulo-cadastro {
+  text-decoration: underline;
+}
+
+/* Botões padrão */
+.btn-efinance {
+  background-color: #5FD863;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 50px;
+  height: fit-content;
+}
+
+/* Botões menores */
+.btn-efinance-sm {
+  background-color: #5FD863;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 50px;
+  padding: 0.3em 1.5em;
+  align-content: space-between;
+}
+
+/* Espaçamentos personalizados */
+.margin-top-md {
+  margin-top: 3em;
+}
+
+.margin-right-lg {
+  margin-right: 22%;
+}
+
+/* Form container */
+.form-container {
+  border: 1px solid white;
+  padding: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
