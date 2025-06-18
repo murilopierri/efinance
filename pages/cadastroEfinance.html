@@ -80,7 +80,7 @@
         
       </div>
 
-      <div class="row my-3">
+      <div class="row">
         <div class="col-sm-6 my-3">
           <label for="rua" class="form-label fs-6 text-light ms-2">Rua:</label>
           <input type="text" name="rua" id="rua" class="form-control input-custom">
@@ -92,7 +92,7 @@
         </div>
       </div>
 
-      <div class="row my-3">
+      <div class="row">
         <div class="col-sm-5 my-3">
           <label for="cidade" class="form-label fs-6 text-light ms-2">Cidade:</label>
           <input type="text" name="cidade" id="cidade" class="form-control input-custom">
@@ -100,7 +100,37 @@
 
         <div class="col-sm-2 my-3">
           <label for="estado" class="form-label fs-6 text-light ms-2">Estado:</label>
-          <input type="text" name="estado" id="estado" class="form-control input-custom">
+          <!--<input type="text" name="estado" id="estado" class="form-control input-custom">-->
+          <select required name="estado" id="estado" class="form-control input-custom state-select">
+            <option value="" selected class="text-muted">UF</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="TO">TO</option>
+          </select>
         </div>
 
         <div class="col-sm-5 my-3">
@@ -111,7 +141,6 @@
 
       
       <div class="row">
-        
         <div class="col-sm-6 my-3">
           <label for="senha" class="form-label fs-6 text-light ms-2">Senha:</label>
           <input type="password" name="senha" id="senha" class="form-control input-custom">
@@ -121,12 +150,11 @@
           <label for="confirmarSenha" class="form-label fs-6 text-light ms-2">Confirmar Senha:</label>
           <input type="password" name="confirmarSenha" id="confirmarSenha" class="form-control input-custom">
         </div>
-      
       </div>
 
           
 
-      <div class="row mt-5">
+      <div class="row mt-4">
         <div class="col-12 col-md-6 mb-3">
           <button type="submit" class="btn w-100 btn-efinance-sm">Cadastrar</button>
         </div>
